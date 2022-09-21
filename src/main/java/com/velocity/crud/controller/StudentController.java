@@ -24,13 +24,7 @@ public class StudentController {
 	StudentServiceImpl studentService;
 	
 	
-	@GetMapping("/")
-	public ModelAndView home() {
-		ModelAndView mv = new ModelAndView("index");
-		mv.addObject("student", studentService.getAllStudents());
-		return mv;
-		
-	}
+	
 	
 	
 	@GetMapping("/students")
