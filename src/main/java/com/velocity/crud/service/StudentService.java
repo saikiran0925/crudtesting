@@ -12,7 +12,5 @@ public interface StudentService {
 	Student getStudentById(Integer id);
 	void deleteStudentById(Integer id);
 	
-	List<String> restCheck();
-	
 	
 }
